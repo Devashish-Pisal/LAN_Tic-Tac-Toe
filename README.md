@@ -10,7 +10,7 @@
 1) Write tests
 2) Perform user authentication and registration on server side (currently on client side)
 3) Work on GUI
-4) Create .jar and .exe files for client and server
+4) Create `.jar` and `.exe` files for client and server
 
 
 ## Use Instructions
