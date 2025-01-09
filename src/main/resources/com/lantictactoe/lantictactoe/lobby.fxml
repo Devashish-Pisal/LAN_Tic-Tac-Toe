@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="487.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lantictactoe.lantictactoe.Controllers.LobbyController">
+   <children>
+      <Label fx:id="playWithLabel" alignment="CENTER" layoutX="27.0" layoutY="34.0" prefHeight="18.0" prefWidth="266.0" text="PLAY WITH">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="loggedInAsLabel" layoutX="349.0" layoutY="444.0" prefHeight="27.0" prefWidth="118.0" text="Logged In As : ">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="emptyLabel" layoutX="467.0" layoutY="444.0" prefHeight="18.0" prefWidth="170.0" textFill="#1518bf" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="playWithListView" layoutX="27.0" layoutY="75.0" prefHeight="360.0" prefWidth="266.0" />
+      <ListView fx:id="leaderboardListView" layoutX="349.0" layoutY="75.0" prefHeight="360.0" prefWidth="266.0">
+         <style>
+            -fx-font-family: "Monospace";
+            -fx-font-size: 14px;
+         </style>
+      </ListView>
+      <Label fx:id="leaderboardLabel" alignment="CENTER" layoutX="349.0" layoutY="34.0" prefHeight="18.0" prefWidth="266.0" text="LEADERBOARD">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="refreshButton" layoutX="115.0" layoutY="444.0" mnemonicParsing="false" onAction="#onRefreshButtonClick" prefHeight="27.0" prefWidth="90.0" text="Refresh List">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
