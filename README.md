@@ -29,12 +29,6 @@ In case of error : change the port number in `GameServer.java` file, if port `50
 
 
 
-## For contribution
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-
 ## Links
 
 [LAN Chat App 1 video](https://www.youtube.com/watch?v=hIc_9Wbn704)
